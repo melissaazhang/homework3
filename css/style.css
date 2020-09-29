@@ -1,0 +1,131 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+
+body{
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  font-family: 'Andika', sans-serif;
+  background-size: cover ;
+  background-position: center;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
+  background-repeat: no-repeat;
+}
+
+main{
+  margin-bottom: 100px;
+}
+
+h1{
+  color: #B92751;
+  font-size: 2em;
+  line-height: 200%;
+  text-align: center;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+p{
+  padding-top: 15px;
+}
+
+a{
+  font-size: 16px;
+  color: #B92751;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+a:focus{
+  border-color: #417243;
+  border-style: dotted;
+  border-width: 3px
+}
+
+table{
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.colhead{
+  background-color: #7e0830;
+  color: #FFFFFF;
+  min-width: 125px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center; /* check */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.colhead:first-child {
+  border-radius: 10px 0px 0px 0px;
+}
+
+.colhead:last-child {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.rowhead{
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+}
+
+tr:last-child td:last-child{
+  border-radius: 0px 0px 10px 0px;
+}
+
+td{
+  text-align: center;
+  border-top: 2px solid #000000;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #D1D1D1;
+}
+
+tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+tr:hover {
+  background-color: rgba(126, 8, 32, 0.25);
+}
+
+tr:last-child .rowhead{
+  border-radius: 0px 0px 0px 10px;
+}
+
+*{
+
+}
+
+thead, th:first-child, tr:first-child{
+  text-align: center;
+  padding: 10px;
+}
+
+footer{
+  width:100%;
+  min-height: 75px;
+  background:#000000;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+}
+
